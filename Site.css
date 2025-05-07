@@ -1,0 +1,39 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../Agganauei.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-size: 20px;
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 30px;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+        .navbar a:hover {
+            color: #ffcc00;
+        }
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding-top: 400px;
+}
